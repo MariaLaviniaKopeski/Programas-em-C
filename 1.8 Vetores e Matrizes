@@ -1,0 +1,25 @@
+#include <stdio.h>
+
+int main() {
+    
+    int n;
+    
+    printf("Digite o tamanho dos vetores: ");
+    scanf("%d", &n);
+
+    int A, B, C;
+
+    printf("Digite os %d elementos do vetor A:\n", n);
+    for(int i = 0; i < n; i++) 
+    scanf("%d", &A);
+
+    printf("Digite os %d elementos do vetor B:\n", n);
+    for(int i = 0; i < n; i++)
+    scanf("%d", &B);
+
+    printf("Digite os %d elementos do vetor C:\n", n);
+    for(int i = 0; i < n; i++) 
+    scanf("%d", &C);
+
+    return 0;
+}
